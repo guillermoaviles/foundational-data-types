@@ -21,6 +21,22 @@ public class Main {
             if (subjectsArray[i].equals("History")) break;
         }
 
+        int[] evenNumbers = new int[51];
+        int j = 0;
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+                evenNumbers[j] = i;
+                j++;
+            }
+        }
+
+        System.out.println(Arrays.toString(evenNumbers));
+
+        // FOR EACH LOOP
+
+        for (int number : evenNumbers) {
+            System.out.println(number);
+        }
     }
     public static String[] createSubjectsArray() {
         String[] subjects = new String[5];
