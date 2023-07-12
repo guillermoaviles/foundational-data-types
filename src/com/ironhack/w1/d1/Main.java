@@ -6,15 +6,22 @@ import java.util.Arrays;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+
+        // Default Values
         int value_int = 20;
         String value_string = "Java";
         double value_double = 23.63;
+        double ten = 10.2;
+        int num1 = 1;
+        int num2 = 2;
+        int num3 = 3;
 
+        // Prints
         System.out.println("value_int: " + value_int);
         System.out.println("value_string: " + value_string);
         System.out.println("value_double: " + value_double);
 
-        double ten = 10.2;
+
 
         if ((ten % 1) == 0) {
             System.out.println("It's not a double.");
@@ -23,10 +30,7 @@ public class Main {
             System.out.println("It's a double.");
         }
 
-        int num1 = 1;
-        int num2 = 2;
-        int num3 = 3;
-
+        // Task 1
         int smallest;
 
         if (num1 >= num2) {
